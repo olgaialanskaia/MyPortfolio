@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+body,
+header {
+  font-family: "Merriweather", serif;
+  line-height: 1.4;
+  letter-spacing: .01rem;
+  line-height: 1.75rem;
+}
+
+#portfolio img {
+  width: 100%;
+}
+
+#about img {
+  width: 150px;
+  height: 118px;
+}
+
+.navbar {
+font-family: Montserrat, Helvetica neue, Helvetica, Arial, sans-serif;
+font-weight: 700;
+letter-spacing: .2em;
+}
