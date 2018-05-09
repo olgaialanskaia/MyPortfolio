@@ -13,6 +13,9 @@
 <link rel="stylesheet" type="text/css" href="./resources/css/style.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
 
+<!-- JavaScript scripts-->
+<script type="text/javascript" src="sendMail.js"></script>
+
   </head>
 <body class="bg-white">
     <!-- Navbar -->
@@ -92,16 +95,16 @@
 <!-- Contact -->
 <section id="contact">
 <div class="container mt-2 mb-4 text-center">
-  <form>
-    <h2 class="text-center">Contact</h2>
-    <div class="form-group mt-4">
-      <input type="text" class="form-control" placeholder="Name" required="">
-      <input type="email" class="form-control" placeholder="Email address" required="">
-      <input type="text" class="form-control" placeholder="Phone number">
-      <textarea class="form-control" placeholder="Message" rows="8" required=""></textarea>
-    </div>
-    <button class="btn btn-outline-secondary" type="submit">Send</button>
-  </form>
+  <h2 class="text-center">Contact</h2>
+  <div class="p-2">
+    <i onClick="sendMail(); return false" class="fas fa-envelope fa-lg mr-2"></i>
+    <a target="_blank" href="https://www.linkedin.com/in/olga-ialanskaia-3951244">
+      <i class="fab fa-linkedin fa-lg mr-2"> </i>
+    </a>
+    <a target="_blank" href="https://github.com/olgaialanskaia">
+      <i class="fab fa-github fa-lg mr-2"></i>
+    </a>
+  </div>
 </div>
 </section>
 
@@ -109,14 +112,6 @@
 <footer class="page-footer border-top border-light-gray bg-light">
   <div class="d-flex">
     <div class="mr-auto p-2 text-muted float-left"><i class="far fa-copyright fa-sm ml-2"></i> 2018 Olga Ialanskaia</div>
-    <div class="p-2">
-      <a target="_blank" href="https://www.linkedin.com/in/olga-ialanskaia-3951244">
-        <i class="fab fa-linkedin fa-lg mr-2"> </i>
-      </a>
-      <a target="_blank" href="https://github.com/olgaialanskaia">
-        <i class="fab fa-github fa-lg mr-2"></i>
-      </a>
-    </div>
   </div>
 </footer>
 
